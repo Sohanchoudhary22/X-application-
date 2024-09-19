@@ -1,0 +1,19 @@
+.App {
+  /* border: 1px solid gray; */
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 400px auto auto;
+  grid-template-areas: "sidebar main main";
+  text-align: center;
+  background-color: black;
+}
+.sidebar{
+  grid-area: sidebar;
+  /* border: 1px solid gray; */
+}
+.main{
+  grid-area: main;
+  border: 1px solid gray;
+}
+
+

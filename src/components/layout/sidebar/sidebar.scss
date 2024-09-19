@@ -1,0 +1,62 @@
+.sidebar{
+    padding: 5px;
+    font-size: 40px;
+    color: white;
+
+    .twitter{
+        width: 13%;
+        padding: 3px;
+        margin-right:170px;
+        border-radius: 20px;
+    }
+    .twitter:hover{
+        cursor: pointer;
+        background-color: rgb(41, 41, 41);
+    }
+
+    .btn{
+        width:60%;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 18px;
+        color: white;
+        background-color: rgb(39, 137, 194);
+    }
+}
+    
+.sidebar_cont1{
+    // border: 1px solid rgb(81, 255, 0);
+    width: 60%;
+    margin: auto;
+
+    .sidebar_contbtn{
+        border-radius: 20px;
+        display: flex;
+        color: white;
+        background-color: black;
+        margin:2px;
+        border: none;
+    
+    .sidebar_icon{
+        // border: 1px solid red;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        line-height: 0.5;
+        border-radius:20px;
+        
+        label{
+            font-size: 20px;
+            margin-left:2px;
+        }
+        p{
+            font-size: 18px;
+        }
+        
+    }
+  }   
+    .sidebar_contbtn:hover{
+        cursor: pointer;
+        background-color: rgb(41, 41, 41);
+    }
+}
