@@ -1,4 +1,5 @@
 .sidebar{
+    // border: 1px solid rgb(81, 255, 0);
     padding: 5px;
     font-size: 40px;
     color: white;
@@ -6,7 +7,7 @@
     .twitter{
         width: 13%;
         padding: 3px;
-        margin-right:170px;
+        margin-right:180px;
         border-radius: 20px;
     }
     .twitter:hover{
@@ -15,7 +16,7 @@
     }
 
     .btn{
-        width:60%;
+        width:80%;
         height: 40px;
         border-radius: 20px;
         font-size: 18px;
@@ -27,9 +28,10 @@
 .sidebar_cont1{
     // border: 1px solid rgb(81, 255, 0);
     width: 60%;
-    margin: auto;
+    margin-left: 30px;
 
     .sidebar_contbtn{
+        // border: 1px solid red;
         border-radius: 20px;
         display: flex;
         color: white;
@@ -46,8 +48,7 @@
         border-radius:20px;
         
         label{
-            font-size: 20px;
-            margin-left:2px;
+            font-size:22px;
         }
         p{
             font-size: 18px;
@@ -60,3 +61,48 @@
         background-color: rgb(41, 41, 41);
     }
 }
+
+.sidebar_cont2{
+    // border: 1px solid rgb(81, 255, 0);
+    margin-top:30px;
+    
+    .sidebar_id{
+    // border: 1px solid rgb(81, 255, 0);
+        width: 88%;
+        margin:auto;
+        margin-right:0px;
+        display: flex;
+        justify-content: space-between;
+        line-height:0.4;
+        padding: 5px;
+
+        img{
+            width:20%;
+            margin: auto;
+            height:45px;
+            border-radius:40px;
+        }
+
+        .name_id{
+            width: 60%;
+            margin-left:10px;
+            text-align: left;
+            
+            label{
+                font-weight: bold;
+                font-size:20px;
+            }
+            p{
+                font-size: 15px;
+                color: rgb(163, 163, 163);
+            }
+        }
+        
+        .icon{
+           margin: auto;
+           font-size: 20px;
+        }
+
+    }
+}
+

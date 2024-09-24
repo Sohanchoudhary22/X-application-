@@ -11,6 +11,8 @@ import { BsLightningCharge } from "react-icons/bs";
 import { FaRegUser } from "react-icons/fa6";
 import { CgMoreO } from "react-icons/cg";
 
+import { BsThreeDots } from "react-icons/bs";
+
 import "./sidebar.scss"
 
 const SidebarObj = {
@@ -32,7 +34,7 @@ const SidebarObj = {
             name:"Messages"
          },
          {
-            icon:<BsSlashSquare />,
+            icon:<BsSlashSquare style={{fontSize:"medium"}} />,
             name:"Grok"
          },
          {
@@ -40,7 +42,7 @@ const SidebarObj = {
             name:"Bookmarks"
          },
          {
-            icon:<TfiBag />,
+            icon:<TfiBag style={{fontSize:"medium"}}/>,
             name:"Jobs"
          },
          {
@@ -66,7 +68,12 @@ const SidebarObj = {
       ],
 
     side2:[
-
+        {
+         name:"sohan lal",
+         email:"@jatt8022",
+         image:"https://randomuser.me/api/portraits/men/94.jpg",
+         icon:<BsThreeDots />
+        }
     ]
 }
 
@@ -88,6 +95,22 @@ function Sidebar () {
           </div>
 
           <button className="btn">Post</button>
+
+          <div className="sidebar_cont2">
+            {SidebarObj.side2.map((ele) =>{
+               return(
+               <div className="sidebar_id">
+                  <img src={ele.image} alt="img"/>
+                  <div className="name_id">
+                     <label>{ele.name}</label>
+                     <p>{ele.email}</p>
+                  </div>
+                  <div className="icon">{ele.icon}</div>
+               </div>
+               )
+            })}
+          </div>
+
         </div>
     )
 }
