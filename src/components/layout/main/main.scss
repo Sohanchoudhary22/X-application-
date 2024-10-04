@@ -1,29 +1,35 @@
 .main{
+    overflow: scroll;
+    scrollbar-width: none;
 
-
-    .main_child1{
+  & .main_child1{
         border-bottom: 1px solid rgb(70, 70, 70);
         width: 100%;
         display: flex;
         justify-content:space-around;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background-color: black;
         
-        .link{
+       & .link{
+           border-bottom: 4px solid rgb(0, 0, 0);
             width: 13%;
-            margin-top: 20px;
-            height: 40px;
+            padding: 1rem;
             font-size:19px;
             text-decoration: none;
             font-weight: bold;
             color: white;
             background-color: black;
-            border: none;
+
+           
         }
-        .link:hover{
+        & .link:hover{
             border-bottom: 4px solid rgb(29, 138, 240);
         }
     }
 
-    .main_child2{
+   & .main_child2{
         border-bottom: 1px solid rgb(70, 70, 70);
         display: flex;
         padding: 10px;
@@ -75,18 +81,16 @@
         
     }
 
-    .main_child3{
+     & .main_child3{
         border-bottom: 1px solid rgb(70, 70, 70);
         margin: auto;
         color:rgb(8, 119, 247) ;
         padding:20px;
     }
 
-    .main_child4{
+   & .main_child4{
         // border: 1px solid red;
         width: 100%;
-        // overflow: scroll;
-        // scrollbar-width: none;
 
         .post{
            border-bottom: 1px solid rgb(70, 70, 70);
