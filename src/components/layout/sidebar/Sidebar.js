@@ -14,52 +14,66 @@ import { CgMoreO } from "react-icons/cg";
 import { BsThreeDots } from "react-icons/bs";
 
 import "./sidebar.scss"
+import {Link} from "react-router-dom"
 
 const SidebarObj = {
     side1:[
         {
            icon:<GoHomeFill />,
-           name:"Home"
+           name:"Home",
+           link:"Foryou",
+           
+           
         },
         {
             icon:<IoSearchSharp />,
-            name:"Explore"
+            name:"Explore",
+            link:"Explore.js"
          },
          {
             icon:<GrNotification />,
-            name:"Notification"
+            name:"Notification",
+            link:"/notification"
          },
          {
             icon:<MdMailOutline />,
-            name:"Messages"
+            name:"Messages",
+            link:"/messages"
          },
          {
-            icon:<BsSlashSquare style={{fontSize:"medium"}} />,
-            name:"Grok"
+            icon:<BsSlashSquare style={{fontSize:"17px"}} />,
+            name:"Grok",
+            link:"/grok"
          },
          {
             icon:<MdOutlineBookmarkBorder />,
-            name:"Bookmarks"
+            name:"Bookmarks",
+            link:"/bookmarks"
          },
          {
-            icon:<TfiBag style={{fontSize:"medium"}}/>,
-            name:"Jobs"
+            icon:<TfiBag style={{fontSize:"18px"}}/>,
+            name:"Jobs",
+            link:"/jobs"
          },
          {
             icon:<IoPeopleOutline />,
-            name:"Communities"
+            name:"Communities",
+            link:"/communities"
          },
          {
             icon:<FaXTwitter/>,
-            name:"Premium"
+            name:"Premium",
+            link:"/premium"
          },
          {
             icon:<BsLightningCharge />,
-            name:"Verified Orgs"
+            name:"Verified Orgs",
+            link:"/verified-orgs"
          },
          {
             icon:<FaRegUser />,
-            name:"Profile"
+            name:"Profile",
+            link:"/profile"
          },
          {
             icon:<CgMoreO />,
@@ -85,10 +99,8 @@ function Sidebar () {
             {SidebarObj.side1.map((ele) =>{
                 return(
                    <button className="sidebar_contbtn">
-                    <div className="sidebar_icon">
-                      <label>{ele.icon}</label>
-                      <p className="p">{ele.name}</p>
-                    </div>
+                     <Link to={ele.link} className="Link"> <label>{ele.icon}</label>
+                      <p className="p">{ele.name}</p></Link>
                     </button>
                 )
             })}

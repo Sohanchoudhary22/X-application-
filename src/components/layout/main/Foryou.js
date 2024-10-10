@@ -16,43 +16,43 @@ const ForyouObj ={
             label:"हाल ही में IIFA अवार्ड्स दिए गए हैं, आपको जानकारी होगी कि यह अवार्ड्स बॉलीवुड फ़िल्मों के लिए दिए जाते हैं,इस अवॉर्ड फंक्शन में एक अवॉर्ड महशूर टीचर विकास दिव्यकीर्ति को भी मिला है।विकास दिव्यकीर्ति को यह अवॉर्ड उनकी फ़िल्म 12th Fail की Story(Adapted) के लिए मिला है। विकास दिव्यकीर्ति ने IIFA में शाहरुख खान समेत कई स्टार्स के साथ स्टेज साझा की।",
             date_time:"14h",
             type:"image",
-            postUrl:"https://pbs.twimg.com/media/GYu3A9oWoAQ7gMY?format=jpg&name=medium"
+            postUrl:"https://cdn.dnaindia.com/sites/default/files/2024/08/22/2647679-work-2024-08-22t204031.865.jpg?im=FitAndFill=(1200,900)"
           },
           {
-            postimg:"https://x.com/JaikyYadav16",
-            name:"Jaiky Yadav",
-            profiletag:"@JaikyYadav16",
-            label:"हाल ही में IIFA अवार्ड्स दिए गए हैं, आपको जानकारी होगी कि यह अवार्ड्स बॉलीवुड फ़िल्मों के लिए दिए जाते हैं,इस अवॉर्ड फंक्शन में एक अवॉर्ड महशूर टीचर विकास दिव्यकीर्ति को भी मिला है।विकास दिव्यकीर्ति को यह अवॉर्ड उनकी फ़िल्म 12th Fail की Story(Adapted) के लिए मिला है। विकास दिव्यकीर्ति ने IIFA में शाहरुख खान समेत कई स्टार्स के साथ स्टेज साझा की।",
-            date_time:"14h",
+            postimg:"https://pbs.twimg.com/profile_images/1842733820941905921/9Gk8hbKx_400x400.jpg",
+            name:"Elon Musk",
+            profiletag:"@elonmusk",
+            label:"Make sure everyone you know has registered to vote! Only 2 days left to do so in Georgia & Arizona.",
+            date_time:"Oct 6",
             type:"image",
-            postUrl:"https://pbs.twimg.com/media/GYu3A9oWoAQ7gMY?format=jpg&name=medium"
+            postUrl:"https://deadline.com/wp-content/uploads/2024/09/taylor-swift-elon-musk.jpg?w=681&h=383&crop=1"
           },
           {
-            postimg:"https://x.com/JaikyYadav16",
-            name:"Jaiky Yadav",
-            profiletag:"@JaikyYadav16",
+            postimg:"https://pbs.twimg.com/profile_images/1833509376528945157/5AeMNn9f_400x400.jpg",
+            name:"Narendra Modi",
+            profiletag:"@narendramodi",
             label:"हाल ही में IIFA अवार्ड्स दिए गए हैं, आपको जानकारी होगी कि यह अवार्ड्स बॉलीवुड फ़िल्मों के लिए दिए जाते हैं,इस अवॉर्ड फंक्शन में एक अवॉर्ड महशूर टीचर विकास दिव्यकीर्ति को भी मिला है।विकास दिव्यकीर्ति को यह अवॉर्ड उनकी फ़िल्म 12th Fail की Story(Adapted) के लिए मिला है। विकास दिव्यकीर्ति ने IIFA में शाहरुख खान समेत कई स्टार्स के साथ स्टेज साझा की।",
-            date_time:"14h",
+            date_time:"20h",
             type:"image",
-            postUrl:"https://pbs.twimg.com/media/GYu3A9oWoAQ7gMY?format=jpg&name=medium"
+            postUrl:"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2WU-CaOU2AoXb-YqiepoRrrVapAN_2r2Qd3tBRQd5Rz5Dnk96gFSaIXVjFLfskbk-nWo_SZyIYK7eufXp0yG3BwUgod9B0B45V1Xv7w"
           },
           {
-            postimg:"https://x.com/JaikyYadav16",
-            name:"Jaiky Yadav",
-            profiletag:"@JaikyYadav16",
-            label:"हाल ही में IIFA अवार्ड्स दिए गए हैं, आपको जानकारी होगी कि यह अवार्ड्स बॉलीवुड फ़िल्मों के लिए दिए जाते हैं,इस अवॉर्ड फंक्शन में एक अवॉर्ड महशूर टीचर विकास दिव्यकीर्ति को भी मिला है।विकास दिव्यकीर्ति को यह अवॉर्ड उनकी फ़िल्म 12th Fail की Story(Adapted) के लिए मिला है। विकास दिव्यकीर्ति ने IIFA में शाहरुख खान समेत कई स्टार्स के साथ स्टेज साझा की।",
-            date_time:"14h",
+            postimg:"https://pbs.twimg.com/profile_images/1559263020223672320/DD-e175F_400x400.jpg",
+            name:"Panchjanya",
+            profiletag:"@epanchjanya",
+            label:"मुस्लिम लड़की ने हिन्दू लड़के के साथ किया विवाह! बरेली में मुस्लिम युवती मुस्कान ने हिन्दू दोस्त सुमित यादव के साथ किया विवाह। प्रयागराज के मंदिर में शादी के बाद दोनों ने फोटो-वीडियो सोशल मीडिया पर वायरल किए हैं।  मुस्कान ने अपने कट्टरपंथी परिवार से जान का खतरा बताते हुए",
+            date_time:"Oct 6",
             type:"image",
-            postUrl:"https://pbs.twimg.com/media/GYu3A9oWoAQ7gMY?format=jpg&name=medium"
+            postUrl:"https://pbs.twimg.com/media/GZIcQfNbkAAtUxq?format=jpg&name=large"
           },
           {
-            postimg:"https://x.com/JaikyYadav16",
-            name:"Jaiky Yadav",
-            profiletag:"@JaikyYadav16",
-            label:"हाल ही में IIFA अवार्ड्स दिए गए हैं, आपको जानकारी होगी कि यह अवार्ड्स बॉलीवुड फ़िल्मों के लिए दिए जाते हैं,इस अवॉर्ड फंक्शन में एक अवॉर्ड महशूर टीचर विकास दिव्यकीर्ति को भी मिला है।विकास दिव्यकीर्ति को यह अवॉर्ड उनकी फ़िल्म 12th Fail की Story(Adapted) के लिए मिला है। विकास दिव्यकीर्ति ने IIFA में शाहरुख खान समेत कई स्टार्स के साथ स्टेज साझा की।",
-            date_time:"14h",
-            type:"image",
-            postUrl:"https://pbs.twimg.com/media/GYu3A9oWoAQ7gMY?format=jpg&name=medium"
+            postimg:"https://pps.whatsapp.net/v/t61.24694-24/445380714_380164061741682_5938289116210842685_n.jpg?ccb=11-4&oh=01_Q5AaIOuDYPQS6v75fQ15fg1D5PyBuo6UHzOCPKW7G5QPnxOC&oe=66FFA051&_nc_sid=5e03e0&_nc_cat=104",
+            name:"Sohan choudhary",
+            profiletag:"@scribe9104",
+            label:"सिर्फ़ डंडियों के दम पर भूखे चीतों के मुँह से उनका शिकार छीनते हुए दक्षिण अफ़्रीका के कालाहारी रेगिस्तान में पाये जाने वाले बुशमैन जनजाति के लोग।ताक़त हथियार में नहीं, हाथ में होती है॥",
+            date_time:"Oct 4",
+            type:"video",
+            postUrl:"https://cdn.pixabay.com/video/2023/08/06/174896-852206029_tiny.mp4"
           },
     ]
 }

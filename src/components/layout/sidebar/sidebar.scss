@@ -34,26 +34,30 @@
         // border: 1px solid red;
         border-radius: 20px;
         display: flex;
-        color: white;
+        // color: white;
         background-color: black;
         margin:2px;
         border: none;
-    
-    .sidebar_icon{
-        // border: 1px solid red;
-        display: flex;
-        gap: 20px;
-        align-items: center;
-        line-height: 0.5;
-        border-radius:20px;
+        
+        .Link{
+            // border: 1px solid red;
+            // width: 105%;
+            color: white;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            line-height: 0.5;
+            border-radius:20px;
+            text-decoration: none;
         
         label{
+            // border: 1px solid red;
             font-size:22px;
         }
         p{
+            // border: 1px solid red;
             font-size: 18px;
         }
-        
     }
   }   
     .sidebar_contbtn:hover{
